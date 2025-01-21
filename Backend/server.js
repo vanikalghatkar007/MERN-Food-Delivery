@@ -23,7 +23,7 @@ connectDb();
 
 // api endpoints
 app.use("/api/food", foodRouter)
-app.use("/images",express.static('tmp'))
+app.use("/images",express.static('./tmp'))
 
 app.use("/api/user", userRouter)
 
