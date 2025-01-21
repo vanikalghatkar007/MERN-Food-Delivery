@@ -35,5 +35,9 @@ app.listen(port, ()=>{
     console.log(`Server started on http://localhost:${port}`)
 })
 
+app.get('/', (req,res)=>{
+    res.send('Having such a good time')
+ })
+
 
 //mongodb+srv://vani:Vani1!@cluster0.sq32n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
